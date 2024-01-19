@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "extratab",
+  "version": "${version}",
+
+  "name": "ExtraTab",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "Unlicense",
+  "icon": "icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "extratab.mixins.json",
+    "extratab-common.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.16.5"
+  }
+}
